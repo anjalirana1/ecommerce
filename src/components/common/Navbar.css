@@ -1,0 +1,114 @@
+.nav{
+    position: fixed;
+    width: 100%;
+z-index: 40; 
+background-color: #ffffff; 
+transition-duration: 200ms; 
+box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); 
+
+}
+.nav-main{
+ padding-top: 0.5rem;
+padding-bottom: 0.5rem; 
+}
+.nav-upper{
+    display: flex; 
+justify-content: space-between; 
+align-items: center; 
+
+}
+.logo{
+    width: 7rem; 
+}
+.search{
+ display: flex; 
+gap: 1rem; 
+justify-content: space-between; 
+align-items: center; 
+}
+.search-box{
+    display: none; 
+    position: relative; 
+    
+    @media (min-width: 640px) { 
+        display: block; 
+    }
+}
+.search-input{
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem; 
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; 
+    border-radius: 9999px; 
+    border-width: 1px; 
+    outline: none;
+    border: 1px solid rgb(168, 33, 168);
+    width: 150px;
+    transition: width 0.5s ease;
+    /* position: absolute; */
+    right: 0;
+
+    @media (min-width: 640px) { 
+      width: 200px;
+     }
+}
+.search-box:hover .search-input,
+.search-box:focus-within .search-input{
+    width: 300px;
+}
+.search-icon{
+    /* padding-top: 5px;
+    padding-right: 10px; */
+    position: absolute; 
+    top: 20%;
+    right: 5%;
+    color: #6B7280; 
+
+}
+.search-box:hover .search-icon,
+.search-box:focus-within .search-icon{
+    color: var(--secondary);
+}
+.btn{
+    background: var(--secondary);
+padding: 4px 18px;
+align-items: center; 
+border-radius: 20px; 
+color: #ffffff; 
+border: none;
+transition:  0.5s ease-in-out;
+}
+.cart{
+   font-size: 20px;
+   transition:  0.5s ease-in-out;
+}
+.btn:hover{
+    background: var(--white);
+}
+.btn:hover .cart{
+    color: var(--secondary);
+}
+
+.lower-navbar{
+    background: var(--primary);
+    color: var(--white);
+}
+.menu-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:  10px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+li{
+    list-style: none;
+}
+.menu-list li:hover{
+    color: var(--secondary);
+}
+@media (max-width: 700px) {
+  .lower-navbar{
+    display: none;
+  }
+}

@@ -1,0 +1,58 @@
+.slider-main {
+    height: 18rem;
+    padding-top: 7rem;
+    margin-bottom: 2rem;
+  }
+  
+  .slider-box {
+    background-repeat: no-repeat !important;
+    background-size: contain !important; 
+    width: 100% !important;
+    height: 18rem;
+    background-position: center !important;
+  }
+  
+  .slider-box1 {
+    background-image: url("../../assets/packaging.webp");
+  }
+  
+  .slider-box2 {
+    background-image: url("../../assets/apparel.webp");
+  }
+  
+  .slider-box3 {
+    background-image: url("../../assets/calendars.webp");
+  }
+  
+  .slider-box4 {
+    background-image: url("../../assets/customwall.webp");
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .slider-main {
+      height: 12rem; 
+      padding-top: 5rem;
+    }
+    .slider-box {
+      height: 12rem; 
+    }
+  }
+  @media (max-width: 600px) {
+    .slider-main {
+      height: 10rem; 
+      padding-top: 4rem;
+    }
+    .slider-box {
+      height: 10rem; 
+    }
+  }
+  @media (max-width: 460px) {
+    .slider-main {
+      height: 8rem; 
+    }
+    .slider-box {
+      height: 8rem; 
+    }
+  }
+  

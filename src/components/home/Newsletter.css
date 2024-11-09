@@ -1,0 +1,46 @@
+.newsletter{
+  background: url('../../assets/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 2rem;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+  offset: 1600 !important;
+
+  h1{
+    color: white;
+    margin-bottom: 2rem;
+  }
+  input{
+    width: 100%;
+    padding: 18px 10px;
+    border: none;
+  }
+}
+.newsletter-box{
+  padding: initial;
+}
+
+@media (max-width: 768px) {
+  .newsletter{
+    h1{
+      font-size: 16px;
+      margin-bottom: 1rem;
+    }
+  }
+}
+.clients{
+  background: url('../../assets/clients.webp');
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 2rem 0;
+  height: 15rem;
+  background-position: center;
+
+}
+@media (max-width: 768px){
+  .clients{
+    margin: 0;
+  }
+}

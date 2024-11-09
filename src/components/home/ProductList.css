@@ -1,0 +1,21 @@
+.product-list{
+    margin-top: 2rem;
+}
+
+.product-list-box{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product-list-card{
+  width: 25%;
+  margin-bottom: 2rem;
+}
+.product-list-card-img{
+    /* width: 200px;
+    overflow: hidden; */
+    border-radius: 10px;
+}
