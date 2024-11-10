@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./OptionSection.css";
 import { FaRegIdCard } from "react-icons/fa";
 import { FaCalendarAlt } from "react-icons/fa";
@@ -6,15 +6,8 @@ import { TbTruckDelivery } from "react-icons/tb";
 import { IoShirtSharp } from "react-icons/io5";
 import { FaBoxOpen } from "react-icons/fa";
 import option from "../../assets/option1.webp";
-import Aos from "aos";
-import "aos/dist/aos.css";
 
 const OptionSection = () => {
-  useEffect(() => {
-    Aos.init({
-      duration: 2000 
-    });
-  }, []);
   return (
     <>
       <div className="container">

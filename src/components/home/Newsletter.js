@@ -1,14 +1,7 @@
-import React, {useEffect} from "react";
+import React from "react";
 import "./Newsletter.css";
-import Aos from "aos";
-import "aos/dist/aos.css";
 
 const Newsletter = () => {
-  useEffect(() => {
-    Aos.init({
-      duration: 2000
-    });
-  }, []);
   return (
     <>
       <div className="newsletter" data-aos="zoom-in">

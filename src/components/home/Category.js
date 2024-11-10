@@ -1,23 +1,17 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './Category.css';
 import { FaStar } from "react-icons/fa";
 import best1 from "../../assets/best1.webp";
 import best2 from "../../assets/best2.webp";
 import best3 from "../../assets/best3.webp";
 import { Button } from '@mui/material';
-import Aos from "aos";
-import "aos/dist/aos.css";
 
 const Category = () => {
-    useEffect(() => {
-        Aos.init({
-          duration: 2000
-        });
-      }, []);
+   
 
     return (
         <>
-            <div class="container Category-main">
+            <div className="container Category-main">
                 <div className='Category-text'>
                     <p className='title' data-aos="fade-up">Top Rated Products for you</p>
                     <h1 className='heading' data-aos="fade-up">Best Products</h1>

@@ -18,7 +18,8 @@ const Navbar = () => {
             {/* search bar and cart */}
             <div className='search'>
                 <div className='search-box'>
-                    <input type='text' placeholder='search' 
+                    <input type='text'
+                     placeholder='search' 
                     className='search-input'/>
                     <IoMdSearch className='search-icon'/>
                 </div>

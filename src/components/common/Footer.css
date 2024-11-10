@@ -32,19 +32,25 @@ footer{
 .footer-logo{
     width: 120px;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 .footer-col h3{
     width: fit-content;
     margin-bottom: 40px;
     position: relative;
 }
+.footer-col  h4, p{
+    cursor: pointer;
+}
 .email-id{
     width: fit-content;
     border-bottom: 1px solid #ccc;
+    cursor: pointer;
 }
 
 ul li{
     list-style: none;
+    cursor: pointer;
     /* margin-bottom: 12px; */
 }
 ul li a{
